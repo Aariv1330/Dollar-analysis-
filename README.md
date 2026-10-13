@@ -1,30 +1,42 @@
-💰 **El dólar paralelo pasó de Bs 11 a Bs 20 en solo 9 meses.**
+I put on my analyst hat to understand the key factors driving this dramatic increase.
 
-Me puse el sombrero de Analista y quise entender **qué factores lo empujaron**.
+🔎 Methodology
 
-🔎 **Metodología**
+• Scraped over 4,000 headlines from Bolivian news outlets.
+• Aligned each news article with the USDT/BOB exchange rate (sourced from p2p.army) and the official exchange rate published by the Central Bank of Bolivia (BCB).
+• Classified entities, political parties, and key topics using a locally run LLM (DeepSeek), covering 1,500 articles so far.
+• Modeled the percentage spread and visualized the results in an interactive Power BI dashboard.
 
-• Scrapeé >4 000 titulares de medios bolivianos  
-• Alineé cada noticia con el precio USDT/BOB (fuente p2p.army) y el tipo oficial del BCB  
-• Clasifiqué entidades, partidos y temas con un LLM local (DeepSeek) solo 1500 noticias por el momento
-• Modeleé el spread % y lo visualicé en un dashboard Power BI interactivo  
+📊 4 Key Periods
 
-📊 **4 periodos clave** 
+1. Fragile Stability (September 2024 – February 2025)
+The exchange rate increased by only 5.6%.
 
-**1. Estabilidad frágil** (Sep 24-Feb 25) — incremento de sólo +5,6 %  
-**2. Primer punto crítico** (Mar-Abr 25) — pánico por escasez de diésel (+12 %)  
-**3. Golpe sísmico** (May 25) — conflicto político ➜ pico de Bs 20 (+29 % en 1 sem)  
-**4. Mejoría?** — Regulación fintech (D.S. 5384) y elecciones de Ago 25 marcarán la tendencia
+2. First Critical Turning Point (March–April 2025)
+Diesel shortages triggered panic, contributing to a 12% increase.
 
-💡 **Hallazgos**
+3. A Major Shock (May 2025)
+Political conflict drove the rate to a peak of Bs 20, representing a 29% increase in just one week.
 
-- El volumen de noticias sobre crisis de combustibles anticipó saltos del dólar con 2-3 semanas.
-- Conflictos sociopolíticos están aumentando la volatilidad más que los anuncios de medidas económicas.
-- De los 161 días transcurridos hasta la fecha las noticias mencionan las palabras marchas, bloqueos, paros, conflictos, enfrentamientos en 85 días diferentes y un total de 271 ocasiones.
+4. Signs of Recovery?
+Fintech regulation (Supreme Decree No. 5384) and the August 2025 elections could influence the future trend.
 
-🚀 **Explora el dashboard y el código** 
+💡 Key Findings
 
-[Link al Repo en Github](https://github.com/carloscoronad0/usdt_analyzer) — comentarios bienvenidos.
+News coverage of fuel shortages appeared to anticipate exchange rate spikes by 2–3 weeks.
 
-¿Qué otro driver crees que influirá en el tipo de cambio este 2025?  
-👇 ¡Te leo en comentarios!
+Sociopolitical conflicts seem to be increasing exchange rate volatility more than economic policy announcements.
+
+Over the 161 days analyzed, words such as protests, blockades, strikes, conflicts, and clashes appeared in news coverage on 85 different days, with 271 total mentions.
+
+🚀 Explore the Dashboard and Code
+
+🔗 GitHub Repository: https://github.com/carloscoronad0/usdt_analyzer
+
+Feedback and suggestions are always welcome!
+
+💭 What other factors do you think will influence Bolivia's exchange rate in 2025?
+
+👇 Share your thoughts in the comments!
+
+— Aariv Srivastava
